@@ -1,0 +1,24 @@
+{
+  "name": "hexo-theme-well",
+  "version": "0.0.1",
+  "description": "A super simple theme for Hexo",
+  "main": "index.js",
+  "keywords": [
+    "responsive",
+    "simple",
+    "light"
+  ],
+  "author": "Anniywell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anniywell/hexo-theme-well.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anniywell/hexo-theme-well/issues"
+  },
+  "homepage": "https://github.com/Anniywell/hexo-theme-well#readme",
+  "devDependencies": {
+    "eslint": "^3.12.0"
+  }
+}
