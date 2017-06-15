@@ -4,9 +4,9 @@
   "description": "A super simple theme for Hexo",
   "main": "index.js",
   "keywords": [
-    "responsive",
-    "simple",
-    "light"
+    "hexo",
+    "theme",
+    "well"
   ],
   "author": "Anniywell",
   "license": "MIT",
