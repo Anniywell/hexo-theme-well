@@ -1,9 +1,9 @@
 (function (window) {
   'use strict';
 
-  var Even = {};
+  var Well = {};
 
-  Even.backToTop = function () {
+  Well.backToTop = function () {
     var $backToTop = $('#back-to-top');
 
     $(window).scroll(function () {
@@ -19,7 +19,7 @@
     });
   };
 
-  Even.mobileNavbar = function () {
+  Well.mobileNavbar = function () {
     var $mobileNav = $('#mobile-navbar');
     var $mobileNavIcon = $('.mobile-navbar-icon');
     var slideout = new Slideout({
@@ -49,7 +49,7 @@
     });
   };
 
-  Even.toc = function () {
+  Well.toc = function () {
     var SPACING = 20;
     var $toc = $('.post-toc'),
         $footer = $('.post-footer');
@@ -111,7 +111,7 @@
     });
   };
 
-  Even.fancybox = function () {
+  Well.fancybox = function () {
     if ($.fancybox){
       $('.post').each(function () {
         $(this).find('img').each(function () {
@@ -126,5 +126,5 @@
     }
   };
 
-  window.Even = Even;
+  window.Well = Well;
 })(window);

@@ -1,5 +1,5 @@
 (function () {
-  Even.search = function () {
+  Well.search = function () {
 
     $('#search_btn').on('click', function (e) {
       e.preventDefault();
@@ -118,5 +118,5 @@
 })();
 
 $(document).ready(function () {
-  Even.search();
+  Well.search();
 });

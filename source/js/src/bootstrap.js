@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  Even.backToTop();
-  Even.mobileNavbar();
+  Well.backToTop();
+  Well.mobileNavbar();
 
-  CONFIG.toc && Even.toc();
-  CONFIG.fancybox && Even.fancybox();
+  CONFIG.toc && Well.toc();
+  CONFIG.fancybox && Well.fancybox();
 });
