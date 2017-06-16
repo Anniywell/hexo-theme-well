@@ -9,6 +9,8 @@
       </div>
     {% elif theme.netease_key %}
       <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    {% elif theme.livere_uid %}
+      <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
     {% endif %}
   </div>
 {% endif %}

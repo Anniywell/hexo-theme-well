@@ -63,9 +63,11 @@ baidu_analytics:
 google_analytics:
 
 # Disqus
-disqus_shortname:
+# disqus_shortname:
 # netease
 # netease_key:
+# livere
+livere_uid: MTAyMC8yOTExNC81Njgy
 
 # ===========================================
 # Version
