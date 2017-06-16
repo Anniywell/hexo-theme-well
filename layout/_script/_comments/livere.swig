@@ -1,4 +1,4 @@
-{% if theme.livere_uid %}
+{% if page.layout === 'post' and theme.livere_uid %}
   <script type="text/javascript">
     (function(d, s) {
        var j, e = d.getElementsByTagName(s)[0];
@@ -12,5 +12,5 @@
        e.parentNode.insertBefore(j, e);
     })(document, 'script');
   </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+  <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
 {% endif %}
